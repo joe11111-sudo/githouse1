@@ -1,0 +1,88 @@
+C:/Users/joejy/OneDrive/Desktop/original/extend.v {1 {vlog -work work -vopt C:/Users/joejy/OneDrive/Desktop/original/extend.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module extend
+
+Top level modules:
+	extend
+
+} {} {}} C:/Users/joejy/OneDrive/Desktop/original/gpr.v {1 {vlog -work work -vopt C:/Users/joejy/OneDrive/Desktop/original/gpr.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module gpr
+
+Top level modules:
+	gpr
+
+} {} {}} C:/Users/joejy/OneDrive/Desktop/original/dm.v {1 {vlog -work work -vopt C:/Users/joejy/OneDrive/Desktop/original/dm.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} C:/Users/joejy/OneDrive/Desktop/original/mips.v {1 {vlog -work work -vopt C:/Users/joejy/OneDrive/Desktop/original/mips.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} C:/Users/joejy/OneDrive/Desktop/original/pc.v {1 {vlog -work work -vopt C:/Users/joejy/OneDrive/Desktop/original/pc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} C:/Users/joejy/OneDrive/Desktop/original/IR.v {1 {vlog -work work -vopt C:/Users/joejy/OneDrive/Desktop/original/IR.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module IR
+
+Top level modules:
+	IR
+
+} {} {}} C:/Users/joejy/OneDrive/Desktop/original/ctrl_encode_def.v {1 {vlog -work work -vopt C:/Users/joejy/OneDrive/Desktop/original/ctrl_encode_def.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}} C:/Users/joejy/OneDrive/Desktop/original/instruction_def.v {1 {vlog -work work -vopt C:/Users/joejy/OneDrive/Desktop/original/instruction_def.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}} C:/Users/joejy/OneDrive/Desktop/original/npc.v {1 {vlog -work work -vopt C:/Users/joejy/OneDrive/Desktop/original/npc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module npc
+
+Top level modules:
+	npc
+
+} {} {}} C:/Users/joejy/OneDrive/Desktop/original/alu.v {1 {vlog -work work -vopt +incdir+C:/Users/joejy/OneDrive/Desktop/original C:/Users/joejy/OneDrive/Desktop/original/alu.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/joejy/OneDrive/Desktop/original/MUX.v {1 {vlog -work work -vopt C:/Users/joejy/OneDrive/Desktop/original/MUX.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module RegDst_mux
+-- Compiling module ALUSrc_mux
+-- Compiling module DatatoReg_mux
+
+Top level modules:
+	RegDst_mux
+	ALUSrc_mux
+	DatatoReg_mux
+
+} {} {}} C:/Users/joejy/OneDrive/Desktop/original/ctrl.v {1 {vlog -work work -vopt +incdir+C:/Users/joejy/OneDrive/Desktop/original C:/Users/joejy/OneDrive/Desktop/original/ctrl.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} C:/Users/joejy/OneDrive/Desktop/original/im.v {1 {vlog -work work -vopt C:/Users/joejy/OneDrive/Desktop/original/im.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}}

@@ -1,0 +1,245 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\modeltech_10.1a\examples
+valu
+Z1 !s100 0jA82C5<TW7_eLHadoZo03
+Z2 I7PEAJSAY95YdN102fYa5B3
+Z3 V10UhK5UgbYZF1FbW1Y_Bh2
+Z4 dC:\Users\joejy\OneDrive\Desktop\CPUDesign
+Z5 w1650189891
+Z6 8C:/Users/joejy/OneDrive/Desktop/original/alu.v
+Z7 FC:/Users/joejy/OneDrive/Desktop/original/alu.v
+L0 3
+Z8 OE;L;10.1a;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|-vopt|+incdir+C:/Users/joejy/OneDrive/Desktop/original|C:/Users/joejy/OneDrive/Desktop/original/alu.v|
+Z10 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z11 !s92 -work work +incdir+C:/Users/joejy/OneDrive/Desktop/original -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z12 !s108 1650190525.584000
+Z13 !s107 ctrl_encode_def.v|C:/Users/joejy/OneDrive/Desktop/original/alu.v|
+!i10b 1
+!s85 0
+vALUSrc_mux
+Z14 !s100 Q]0hB`81Qg;PAaQW1n6fU1
+Z15 I9jdgh>20C]Momne8HBCB11
+Z16 V_O5ZX`I]FjgH5;K>icn0P1
+R4
+Z17 w1650182803
+Z18 8C:/Users/joejy/OneDrive/Desktop/original/MUX.v
+Z19 FC:/Users/joejy/OneDrive/Desktop/original/MUX.v
+L0 20
+R8
+r1
+31
+Z20 !s108 1650190529.092000
+Z21 !s107 C:/Users/joejy/OneDrive/Desktop/original/MUX.v|
+Z22 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/joejy/OneDrive/Desktop/original/MUX.v|
+R10
+Z23 n@a@l@u@src_mux
+!i10b 1
+!s85 0
+vctrl
+Z24 !s100 `2GbU;JQ?W<Z@Kj^BG:a>1
+Z25 IoLA=feiDB[ZRb<za=JmfD2
+Z26 Vj^Y6aMiRVWHIc3iggj?n>2
+R4
+Z27 w1650182616
+Z28 8C:/Users/joejy/OneDrive/Desktop/original/ctrl.v
+Z29 FC:/Users/joejy/OneDrive/Desktop/original/ctrl.v
+L0 4
+R8
+r1
+31
+Z30 !s90 -reportprogress|300|-work|work|-vopt|+incdir+C:/Users/joejy/OneDrive/Desktop/original|C:/Users/joejy/OneDrive/Desktop/original/ctrl.v|
+R10
+R11
+Z31 !s108 1650190525.633000
+Z32 !s107 instruction_def.v|ctrl_encode_def.v|C:/Users/joejy/OneDrive/Desktop/original/ctrl.v|
+!i10b 1
+!s85 0
+vDatatoReg_mux
+Z33 !s100 4dY6Li6d_mD0D`YYj:R=a0
+Z34 IYd0YH=oD4J1Neb]_1@;2m2
+Z35 V=@Y;I4ZLFCkmAmji`M_:i1
+R4
+R17
+R18
+R19
+L0 34
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z36 n@datato@reg_mux
+!i10b 1
+!s85 0
+vdm
+Z37 !s100 E?JdfA<OKgA:XB9kcCjjK2
+Z38 I]n@;no]E61^neZz9HnR4;1
+Z39 V355ze>nZ_LZM_di<`>17m1
+R4
+Z40 w1610442912
+Z41 8C:/Users/joejy/OneDrive/Desktop/original/dm.v
+Z42 FC:/Users/joejy/OneDrive/Desktop/original/dm.v
+L0 1
+R8
+r1
+31
+Z43 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/joejy/OneDrive/Desktop/original/dm.v|
+R10
+Z44 !s108 1650190525.727000
+Z45 !s107 C:/Users/joejy/OneDrive/Desktop/original/dm.v|
+!i10b 1
+!s85 0
+vextend
+Z46 !s100 TTEdzn?naJGdJRd?ii9Gf3
+Z47 I>l6z5Xc_3ZYQ;@jzz6doh0
+Z48 VaDh33GK5T@[>9X?J[Ubg_2
+R4
+Z49 w1610288407
+Z50 8C:/Users/joejy/OneDrive/Desktop/original/extend.v
+Z51 FC:/Users/joejy/OneDrive/Desktop/original/extend.v
+L0 2
+R8
+r1
+31
+Z52 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/joejy/OneDrive/Desktop/original/extend.v|
+R10
+Z53 !s108 1650190525.773000
+Z54 !s107 C:/Users/joejy/OneDrive/Desktop/original/extend.v|
+!i10b 1
+!s85 0
+vgpr
+Z55 !s100 RY?Rb_QlZ1O[G:JXk8fg@2
+Z56 I^VW=][f>iU<E9hL?kNIcF1
+Z57 V:DQTR@]2kEXdn64F];[:I1
+R4
+Z58 w1650190528
+Z59 8C:/Users/joejy/OneDrive/Desktop/original/gpr.v
+Z60 FC:/Users/joejy/OneDrive/Desktop/original/gpr.v
+L0 2
+R8
+r1
+31
+Z61 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/joejy/OneDrive/Desktop/original/gpr.v|
+R10
+Z62 !s108 1650190528.854000
+Z63 !s107 C:/Users/joejy/OneDrive/Desktop/original/gpr.v|
+!i10b 1
+!s85 0
+vim
+Z64 !s100 JOAPd]jF^ni_f[Y0m6DC80
+Z65 IBNbReKBALiXUJInn]diQ21
+Z66 VSSbo1FD805E`Wd]dmn::S2
+R4
+Z67 w1610441128
+Z68 8C:/Users/joejy/OneDrive/Desktop/original/im.v
+Z69 FC:/Users/joejy/OneDrive/Desktop/original/im.v
+L0 2
+R8
+r1
+31
+Z70 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/joejy/OneDrive/Desktop/original/im.v|
+R10
+Z71 !s108 1650190528.911000
+Z72 !s107 C:/Users/joejy/OneDrive/Desktop/original/im.v|
+!i10b 1
+!s85 0
+vIR
+Z73 !s100 CXY3[I^dU89>?MA9H]B4l2
+Z74 IQiZZ7]V^diVo7oabjV8GH1
+Z75 VdoiokPZdC@Pj=oAcaieao3
+R4
+Z76 w1458212079
+Z77 8C:/Users/joejy/OneDrive/Desktop/original/IR.v
+Z78 FC:/Users/joejy/OneDrive/Desktop/original/IR.v
+L0 1
+R8
+r1
+31
+Z79 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/joejy/OneDrive/Desktop/original/IR.v|
+R10
+n@i@r
+Z80 !s108 1650190528.999000
+Z81 !s107 C:/Users/joejy/OneDrive/Desktop/original/IR.v|
+!i10b 1
+!s85 0
+vmips
+Z82 !s100 L1n>VFnI9ibRR^FVQY26>3
+Z83 I3QFHm`0HeI21@cj8]9WWS1
+Z84 VXXMLPNhMZgRT<hIE6`9Zl2
+R4
+Z85 w1650186652
+Z86 8C:/Users/joejy/OneDrive/Desktop/original/mips.v
+Z87 FC:/Users/joejy/OneDrive/Desktop/original/mips.v
+L0 1
+R8
+r1
+31
+Z88 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/joejy/OneDrive/Desktop/original/mips.v|
+R10
+Z89 !s108 1650190529.043000
+Z90 !s107 C:/Users/joejy/OneDrive/Desktop/original/mips.v|
+!i10b 1
+!s85 0
+vnpc
+Z91 !s100 OVbj]W4OkQUz;ESkWhGQg2
+Z92 I87hb62kze^@K4GcYjTXY^1
+Z93 Vbb?E=I788IiJ]I0K3;Y^W2
+R4
+Z94 w1650186662
+Z95 8C:/Users/joejy/OneDrive/Desktop/original/npc.v
+Z96 FC:/Users/joejy/OneDrive/Desktop/original/npc.v
+L0 1
+R8
+r1
+31
+Z97 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/joejy/OneDrive/Desktop/original/npc.v|
+R10
+!i10b 1
+!s85 0
+Z98 !s108 1650190529.145000
+Z99 !s107 C:/Users/joejy/OneDrive/Desktop/original/npc.v|
+vpc
+!i10b 1
+Z100 !s100 >jJ1P2TWIHGRSHhmdmTjU3
+Z101 IlSNQMfSZVN^cQCUC6O^3F3
+Z102 VbLo4nz32z915Nm=5?:]9R0
+R4
+Z103 w1649594917
+Z104 8C:/Users/joejy/OneDrive/Desktop/original/pc.v
+Z105 FC:/Users/joejy/OneDrive/Desktop/original/pc.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1650190529.190000
+!s107 C:/Users/joejy/OneDrive/Desktop/original/pc.v|
+Z106 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/joejy/OneDrive/Desktop/original/pc.v|
+R10
+vRegDst_mux
+Z107 !s100 Kj<PnRLOND`PUPdRgXDHz2
+Z108 IWLUnkAnXUOi@MEATMZ>SV3
+Z109 VZQOMb@ZG^a2menS2[YdFP2
+R4
+R17
+R18
+R19
+L0 2
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z110 n@reg@dst_mux
+!i10b 1
+!s85 0
