@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src ="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+</head>
+<body>
+
+<!--osubmit: 绑定一个提交检测的函数，trune，false
+蒋政结果返回给表单，使用onsbumit 接收-->
+<form action="#" method="post" onsubmit="return aaa()">
+    <p>
+        <spam>用户名：</spam>
+        <input type ="text" id="username" name="username">
+    </p>
+    <p>
+        <span>密码:</span>
+        <input type ="password" id="input-password">
+    </p>
+    <input type ="hidden" id ="md5-password" name="password">
+
+    <!--绑定事件 onclick-->
+    <button type ="submit" onclick="aaa()">提交</button>
+</form>
+
+<script>
+    function aaa(){
+        var uname = document.getElementById('username');
+        var pwd = document.getElementById('input-password');
+        var md5pwd = document.getElementById('md5-password');
+
+        console.log(uname.value);
+        console.log(pwd.value);
+        //pwd.value =md5(pwd.value);
+        //MD5 算法  -加密密码
+        pwd.value =md5(pwd.value);
+        //可以效验表单内容，true就是测试成功，false 就是阻止提交
+        return true;
+    }
+</script>
+</body>
+</html>

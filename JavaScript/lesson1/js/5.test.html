@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        'use strict';
+        /*console.log('a\nb');
+        console.log("\u4e2d");*/
+
+        /*//tab 键上方
+        var msg =
+            `hello
+            world
+            你好呀
+            你好`*/
+
+        /*var person ={
+          name:"whitepanther",
+          age:3,
+          email:"jwqnfeo2gmai.com",
+          score:0
+           }*/
+
+        /*var age =3;
+        while(age<100){
+            age =age+1;
+            console.log(age);
+        }*/
+
+        /*while(true){
+            alert(123);
+        }*/
+
+        /*var  age =3 ;
+        for( let i = 0 ; i <100; i++){
+            console.log(i)
+        }*/
+
+        //函数
+        /*var age =[12,3,12,3,12,3,12,3,12,3,23,123];
+        age.forEach(function(value){console.log(value)
+        })*/
+
+        //函数
+        /**
+         * for(type str:el){}
+         */
+        /*//for(var index in objecr){}
+        var age =[12,3,12,3,12,3,12,3,12];
+        for(var num in age){
+            if(age.hasOwnProperty(num)){
+                console.log("存在")
+                console.log(age[num])
+            }
+        }*/
+
+        //学生成绩，学生的名字
+        /*var map = new Map([['tom',100],['jack',90],['haha',80]]);
+        var name = map.get('tom'); //通过key获取value
+        map.set('admin',123456);
+        console.log(name);
+        map.delete("tom");*/
+
+        /*var set = new Set([3,1,1,1,1]); //set可以去重复
+        set.add(2)
+        set.delete(1)
+        console.log(set.has(3));*/
+
+        var arr = [3,4,5]
+        arr.name="123"; //早期的漏洞
+
+        for(let x in arr ){
+            console.log(x)
+        }
+
+        for(let x of arr ){
+            console.log(x)
+        }
+
+        var map = new Map([["tom",100],["jack",100],["haha",80]]);
+        for(let x of map){
+            console.log(x)
+        }
+
+        var set = new Set([5],[6],[7])
+        for(let x of set){
+            console.log(x)
+        }
+
+        /*function abs(x){
+            //手动抛出异常
+            if(typeof x!== 'number') {
+                throw 'Not a Number';
+            }
+            if(x>=0){
+                return x;
+            }else{
+                return -x;
+            }
+        }*/
+
+        var abs =function(x){
+            console.log("x=>"+x);
+            for(var i = 0 ; i<arguments.length;i++){
+                console.log(arguments[i]);
+            }
+            if(x>=0){
+                return x;
+            }else{
+                return -x;
+            }
+
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

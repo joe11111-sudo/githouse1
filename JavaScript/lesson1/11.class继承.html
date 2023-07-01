@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        /*function Student(name)
+        this.name =name;
+        }
+        //给student新增一个方法
+        Student.prototype.hello = function(){
+        alert('Hello')
+        };*/
+
+        //ES6之后=======
+        //定义学生类
+        class Student{
+            constructor(name){
+                this.name = name;
+            }
+
+        hello() {
+            alert('hello')
+            }
+        }
+        class xiaostudent extends Student{
+            constructor(name,grade){
+                super(name);
+                this.grade =grade;
+            }
+            mygrade(){
+                alert('小学生')
+            }
+        }
+        var xiaoming = new Student("xiaoming");
+        var xiaohong = new xiaostudent("xiaoming");
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        /*unction qi(){
+            var x = 1;
+            x=x+1;
+        }
+        x=x+2;  //uncaught ReferenceError:x is not defined
+
+
+        function qj2(){
+            var x ='A';
+            x =x+1;
+        }
+        */
+
+
+     /*   //颞部函数可以访问外部函数的成员，反之不行
+        function qj(){
+            var x =1;
+        }
+
+        function qj2(){
+            var y =x+1;
+        }
+        var z =y+1; //uncaught referenceError :y is undefined
+    }*/
+        function qj(){
+            var x =1;
+            function qj2(){
+                var x ='A';
+                console.log('inner'+x); //outer1
+            }
+            console.log('outer'+x); //innerA
+            qj2()
+
+        }
+        qj();
+
+
+        function qj2(){
+            var x =1,
+                y=x+1,
+                z,y,a;  //undefined
+
+        }
+
+
+        /*//全局变量
+        var x =1;
+
+        function f(){
+            console.log(x);
+        }
+        f();
+        console.log(x);
+        */
+
+
+     /*   var x= 'x';
+        alert(x);
+        alert(window.x);    //等价*/
+
+       /* var x ='xxx';
+        window.alert(x);
+
+        var olc_alert = window.alert;
+        window.alert = function(){
+
+        };
+        //发现alert失效
+        window.alert(123);
+
+        //恢复
+        window.alert = old_alert;
+        window.alert(456);*/
+
+     /*   //唯一的全局变量
+        var kuangapp ={};
+
+        //定义全局变量
+        kuangapp.name ='kuangshen';
+        kuangapp.add =function(a,b){
+            return a+b;
+        }*/
+
+        /*function aaa(){
+            for (let i = 0; i <100 ; i++) {
+                console.log(i)
+            }
+            console.log(i+1);//除了作用域还是能使用
+        }*/
+
+        const PI='3.14';    //只读变量
+        console.log(PI);
+        //PI='123'; 报错
+    </script>
+</head>
+<body>
+
+</body>
+</html>

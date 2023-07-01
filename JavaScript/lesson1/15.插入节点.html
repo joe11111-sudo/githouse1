@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel=" stylesheet" href="" type="text/css">
+    <script type ="text/javascript" src=""></script>
+
+</head>
+<body>
+<p id ="js">JavaScript</p>
+<div id = "list">
+        <p id = "se">JavaSE</p>
+        <p id = "ee">JavaEE</p>
+        <p id = "me">JavaME</p>
+</div>
+
+<script>
+  /*  var js = document.getElementById('js'), //已存在节点
+        list =document.getElementById('list');
+
+    //通过js创建新节点
+    var newp = document.createElement('p'); //创建一个p标签
+    newp.id ='newp';
+    newp.innerText ='Hello,white';
+    //创建一个标签节点
+    var myscript = document.createElement('script');
+    myscript.setAttribute('type','text/javascript');
+*/
+    var ee = document.getElementsById('ee');
+    var js = document.getElementsById('js');
+    var list = document.getElementsById('list');
+    //要包含的节点，insertBefore(newNode,target)
+    list.insertBefore(js,ee);
+
+</script>
+
+</body>
+</html>

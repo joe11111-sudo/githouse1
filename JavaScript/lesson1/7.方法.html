@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        function getAge(){
+            //今年-出生年
+            var now = new Date().getFullYear();
+            return now - birth;
+        }
+
+        var kuang ={
+            name:"joe",
+            birth:2020,
+
+            age:getAge
+        }
+        //kuang.age（） 成功调用
+        //getAge()  NaN
+
+        getAge.apply(kuang,[]); //this ,指向了kuang， 参数为空
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
